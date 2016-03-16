@@ -22,17 +22,4 @@ public class UndirectedGraph extends Graph implements IUndirectedGraph {
 	public boolean hasEdge(Node _node1, Node _node2) {
 		return super.hasArc(_node1, _node2);
 	}
-
-	@Override
-	public Iterator<Node> creerBFSIterator(Node n) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Iterator<Node> creerDFSIterator(Node n) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

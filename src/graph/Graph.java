@@ -24,6 +24,7 @@ public class Graph implements IDirectedGraph {
 		return this.nodes;
 	}
 
+
 	@Override
 	public int getNbNodes() {
 		return this.nodes.size();
@@ -80,15 +81,14 @@ public class Graph implements IDirectedGraph {
 	}
 
 	@Override
-	public Iterator<Node> creerBFSIterator(Node n) {
-		// TODO Auto-generated method stub
-		return null;
+	public Iterator<Node> creerBFSIterator(Node n)  {
+		return new IteratorLargeur(this, n);
 	}
+	
 
 	@Override
 	public Iterator<Node> creerDFSIterator(Node n) {
-		// TODO Auto-generated method stub
-		return null;
+		return new IteratorProfondeur(this, n);
 	}
 
 }

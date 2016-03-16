@@ -20,6 +20,7 @@ public class Node {
      */
     private static int nombreOfNoeud = 0;
     
+    
     /**
      * Construit un noeud avec une etiquette
      * @param _label etiquette du noeud
@@ -68,7 +69,6 @@ public class Node {
 		return true;
 	}
 
-    
    
 }
 

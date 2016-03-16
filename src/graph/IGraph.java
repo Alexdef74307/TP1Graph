@@ -10,6 +10,7 @@ public interface IGraph {
 	 */
 	public void addNode(Node _node);
 	
+	
 	/**
 	 * 
 	 * @return tous les noeuds du graph
@@ -30,7 +31,6 @@ public interface IGraph {
 	 * renvoi un iterateur pour recherche en largeur
 	 */
 	public Iterator<Node> creerBFSIterator(Node n);
-	
 	/**
 	 * renvoi un iterateur pour recherche en profondeur
 	 */
